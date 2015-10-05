@@ -1,0 +1,21 @@
+{
+  "name": "16-chris-herokudeploy",
+  "version": "1.0.0",
+  "description": "\"my first server side app deployment\"",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Geatz",
+  "engines":{
+    "node": "4.1.1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "figlet": "^1.1.1",
+    "superheroes": "^1.0.0",
+    "supervillains": "^1.0.0"
+  }
+}
